@@ -26,3 +26,5 @@ print(f"Your final balance is: ${total_balance:,}")
 # print(f"{principle:,}")
 # print(rate)
 # print(time)
+
+# we can also make this calculator using only if-else statement
