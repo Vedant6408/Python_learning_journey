@@ -5,11 +5,17 @@
 #     name = input("Enter your name: ")
 # print(f"Hey! {name}")
 
-age = int(input('Enter your age: '))
-while age < 0:
-    print("Age can't be in negative")
-    age  = int(input("Enter your age: "))
-if age > 100:
-        print(f"a human being can't surive for 100 years normally. and you said you're {age} years old that's crazy man")
-else:
-     print(f"Your are {age} years old.")
+# age = int(input('Enter your age: '))
+# while age < 0:
+#     print("Age can't be in negative")
+#     age  = int(input("Enter your age: "))
+# if age > 100:
+#         print(f"a human being can't surive for 100 years normally. and you said you're {age} years old that's crazy man")
+# else:
+#      print(f"Your are {age} years old.")
+
+food = input("Enter food your like to eat(q for quit): ")
+while not food == "q":
+    print(f"You like {food}")
+    food = input("Enter another food you like to eat (q for quit): ")
+print("bye")
