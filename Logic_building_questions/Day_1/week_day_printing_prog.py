@@ -1,5 +1,4 @@
 #weekdays printing program without any module
-num_of_days_in_weeks = 7
 print("How many weeksdays you wanna calculate ? ")
 usr_inp = input("Enter no. of weeks? :: ")
 if usr_inp.isdigit():
