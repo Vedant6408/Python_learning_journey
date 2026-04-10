@@ -8,4 +8,7 @@ tup = (1,2,4,2,2,4,5,"cat","dog")
 # print(len(tup))
 # print(tup.index())
 
-
+#let's do something using for loop
+for x in tup:
+    print(x,end=" ")
+    
