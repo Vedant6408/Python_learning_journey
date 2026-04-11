@@ -22,6 +22,13 @@
 # else:
 #     print("your number isn't palidrome number")
 
-usr_input2 = int(input('enter'))
-something = usr_input2 % 60
-print(something)
+# usr_input2 = int(input('enter'))
+# something = usr_input2 % 60
+# print(something)
+
+cars = ["Porsche", "BMW", "Audi"]
+trending = []
+for c in cars:
+    if c == "BMW" or "Porsche":
+        trending.append(c)
+print(trending)
