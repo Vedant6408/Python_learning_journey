@@ -39,19 +39,25 @@
 #         fruits.remove(f)
 # print(fruits)
 
-a = [11,22,33,44,55,66]
-for i in a:
-    a.remove(i)
-print(i)
+# a = [11,22,33,44,55,66]
+# for i in a:
+#     a.remove(i)
+# print(i)
 
-x = True
-if x == 1:
-    print("stephen hawking")  #here is the twist once the if statement if true i will not read the elif state after thatif x is True:     
-     #but if we use if statement after if statement then what will gonna happen let's see
-if x is True:
-    print('python') #it also print that python string
-elif x:
-    print("the breif history of time")
-else:
-    print("cosmos")
-#if the if statement is true then all the elif is going to be ignored but if there will be 2 or more if statement then they will also gonna be read by the compiler
+# x = True
+# if x == 1:
+#     print("stephen hawking")  #here is the twist once the if statement if true i will not read the elif state after thatif x is True:     
+#      #but if we use if statement after if statement then what will gonna happen let's see
+# if x is True:
+#     print('python') #it also print that python string
+# elif x:
+#     print("the breif history of time")
+# else:
+#     print("cosmos")
+# #if the if statement is true then all the elif is going to be ignored but if there will be 2 or more if statement then they will also gonna be read by the compiler
+
+countries = ["America","Canda","India","Australia","China","Chile","California"]
+for c in countries:
+    if c.startswith("C"):
+        countries.remove(c)
+print(countries)

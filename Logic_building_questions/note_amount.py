@@ -1,6 +1,6 @@
-# print("________________________________")
-# print("This is notes counting program.")
-# print("================================") 
+print("________________________________")
+print("This is notes counting program.")
+print("================================") 
 # print("Here is only 10")   
 # a = int(input("Enter your amount:"))
 
