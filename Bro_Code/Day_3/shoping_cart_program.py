@@ -74,6 +74,6 @@ while running:
         continue
         
 # Note: There are many error in this program, if we run this program simply
-#  then it will run without any error if we do something wrong then it will
-#  through error something it will handle but not all the time
+#  then it will run without any error if we do something  wrong input then it will
+#  through error sometime it will handle but not all the time
 # Note: There are many features are not given in this program 
