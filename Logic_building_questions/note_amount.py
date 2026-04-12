@@ -1,6 +1,6 @@
-print("________________________________")
+print("="*30)
 print("This is notes counting program.")
-print("================================") 
+print("="*30) 
 # print("Here is only 10")   
 # a = int(input("Enter your amount:"))
 
@@ -22,7 +22,7 @@ def count_notes(amount, denominations=None):
     return result
 
 # --- Try it ---
-amount = 5000
+amount = int(input("Enter Amount: "))
 notes = count_notes(amount)
 
 print(f"Amount: ₹{amount}")

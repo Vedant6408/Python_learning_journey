@@ -56,8 +56,13 @@
 #     print("cosmos")
 # #if the if statement is true then all the elif is going to be ignored but if there will be 2 or more if statement then they will also gonna be read by the compiler
 
-countries = ["America","Canda","India","Australia","China","Chile","California"]
-for c in countries:
+countries = ["America","Canda","India","Australia","China","Chile"]
+# for c in countries:
+#     if c.startswith("C"):
+#         countries.remove(c)
+# print(countries)
+# solution of the above problem
+for c in countries[:]:
     if c.startswith("C"):
         countries.remove(c)
 print(countries)
