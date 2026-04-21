@@ -17,4 +17,4 @@ groceries = [
 #iterating element using for loop
 for items in groceries:
     for food in items:
-        print(f"--{food}--",end=" ")
+        print(f"--{food}--")
